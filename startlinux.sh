@@ -4,7 +4,7 @@ unset LD_PRELOAD
 proot \
   -0 \
   --link2symlink \
-  -r ~/$os \
+  -r ~/${os} \
   -b /dev/ \
   -b /sys/ \
   -b /proc/ \
